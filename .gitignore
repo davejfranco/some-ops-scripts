@@ -1,0 +1,7 @@
+/**/*.gz
+/**/*.csv
+/**/*.json
+.DS_Store
+*.pyc
+*.egg-info
+.env
