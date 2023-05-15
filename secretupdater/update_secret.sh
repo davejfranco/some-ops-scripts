@@ -2,6 +2,9 @@
 
 # This script updates a secret in AWS Secrets Manager. Given a secret name and a file containing the secret values
 # The file must be in the format of key=value.
+# Pre-requisites:
+#   - aws cli
+#   - jq
 
 # Set the name of the secret to update
 SECRET_NAME=$1 #Example: "staging/api-pdf/environment"
